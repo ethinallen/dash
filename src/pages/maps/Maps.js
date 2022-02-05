@@ -6,19 +6,30 @@ import {
   Marker,
 } from "react-google-maps";
 
+// marker data for pins
+import markerData from "./data.json";
+
+
 // styles
 import useStyles from "./styles";
+
+const markers = markerData.map(marker => {
+  return <Marker
+    position={marker.map}
+  />
+})
+
 
 const BasicMap = withScriptjs(
   withGoogleMap(() => (
     <GoogleMap
       defaultZoom={12}
       defaultCenter={{
-        lat: parseFloat(-37.813179),
-        lng: parseFloat(144.950259),
+        lat: parseFloat(47.650661583594946),
+        lng: parseFloat(-122.34996448988886)
       }}
     >
-      <Marker position={{ lat: -37.813179, lng: 144.950259 }} />
+      {markers}
     </GoogleMap>
   )),
 );
