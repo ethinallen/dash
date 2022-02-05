@@ -12,6 +12,7 @@ const darkenRate = 15;
 const defaultTheme = {
   palette: {
     primary: {
+      mode: 'dark',
       main: primary,
       light: tinycolor(primary)
         .lighten(lightenRate)
