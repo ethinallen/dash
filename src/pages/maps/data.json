@@ -1,0 +1,826 @@
+[
+    {
+        "title": "Green lake",
+        "description": "Large park with a paved walking trail around it.",
+        "map": {
+            "lat": 47.6798338,
+            "lng": -122.3257826
+        }
+    },
+    {
+        "title": "Redstar Tacos",
+        "description": "",
+        "map": {
+            "lat": 47.6513966,
+            "lng": -122.3515767
+        }
+    },
+    {
+        "title": "Mean Sandwich",
+        "description": "",
+        "map": {
+            "lat": 47.6638214,
+            "lng": -122.3769155
+        }
+    },
+    {
+        "title": "Mischief on Canal",
+        "description": "",
+        "map": {
+            "lat": 47.6515486,
+            "lng": -122.3565823
+        }
+    },
+    {
+        "title": "Outlander Pub",
+        "description": "",
+        "map": {
+            "lat": 47.6523077,
+            "lng": -122.3555786
+        }
+    },
+    {
+        "title": "Tacos Chukis",
+        "description": "",
+        "map": {
+            "lat": 47.6205603,
+            "lng": -122.3214258
+        }
+    },
+    {
+        "title": "Fremont Coffee Company",
+        "description": "My favorite coffee shop in Seattle. Good places for both conversation as well as studying. They're also open until 1900 which means you can still grab coffee there after work.",
+        "map": {
+            "lat": 47.6516692,
+            "lng": -122.3530879
+        }
+    },
+    {
+        "title": "Queen Anne coffee co",
+        "description": "",
+        "map": {
+            "lat": 47.6351865,
+            "lng": -122.3573441
+        }
+    },
+    {
+        "title": "Biscuit bitch",
+        "description": "",
+        "map": {
+            "lat": 47.61036499999999,
+            "lng": -122.3417
+        }
+    },
+    {
+        "title": "Lyons grocery",
+        "description": "",
+        "map": {
+            "lat": 47.6377883,
+            "lng": -122.3432624
+        }
+    },
+    {
+        "title": "Michou deli",
+        "description": "",
+        "map": {
+            "lat": 47.6098867,
+            "lng": -122.3423472
+        }
+    },
+    {
+        "title": "Sisters European cafe",
+        "description": "",
+        "map": {
+            "lat": 47.60946819999999,
+            "lng": -122.3413047
+        }
+    },
+    {
+        "title": "Halal bites urban gyro",
+        "description": "",
+        "map": {
+            "lat": 47.6204742,
+            "lng": -122.334078
+        }
+    },
+    {
+        "title": "Fainting goat gelato - Fremont",
+        "description": "",
+        "map": {
+            "lat": 47.650207,
+            "lng": -122.350022
+        }
+    },
+    {
+        "title": "Norms eatery - Fremont",
+        "description": "",
+        "map": {
+            "lat": 47.652034,
+            "lng": -122.3528409
+        }
+    },
+    {
+        "title": "Konvent coffee",
+        "description": "",
+        "map": {
+            "lat": 47.6237833,
+            "lng": -122.3206193
+        }
+    },
+    {
+        "title": "Art Marble 21",
+        "description": "",
+        "map": {
+            "lat": 47.6265993,
+            "lng": -122.3395
+        }
+    },
+    {
+        "title": "Din tai fun",
+        "description": "",
+        "map": {
+            "lat": 47.6614929,
+            "lng": -122.2996132
+        }
+    },
+    {
+        "title": "Spice Waala",
+        "description": "Great, cheap indian food",
+        "map": {
+            "lat": 47.6216271,
+            "lng": -122.3122461
+        }
+    },
+    {
+        "title": "Cafe ladro",
+        "description": "",
+        "map": {
+            "lat": 47.608053,
+            "lng": -122.3389157
+        }
+    },
+    {
+        "title": "14 carrot cafe Eastlake",
+        "description": "",
+        "map": {
+            "lat": 47.63992229999999,
+            "lng": -122.3260531
+        }
+    },
+    {
+        "title": "Local Coffee Spot",
+        "description": "Espresso and good breakfast food. Not the cheapest but it's good and pretty filling",
+        "map": {
+            "lat": 47.6121005,
+            "lng": -122.3449334
+        }
+    },
+    {
+        "title": "Shawn O\u2019Donnell Fremont",
+        "description": "",
+        "map": {
+            "lat": 47.651538,
+            "lng": -122.3501511
+        }
+    },
+    {
+        "title": "S & L Caf\u00e9 Queen Anne",
+        "description": "",
+        "map": {
+            "lat": 47.639435,
+            "lng": -122.3647284
+        }
+    },
+    {
+        "title": "Sinbad Express",
+        "description": "",
+        "map": {
+            "lat": 47.6512495,
+            "lng": -122.3507575
+        }
+    },
+    {
+        "title": "Retreat Coffee",
+        "description": "",
+        "map": {
+            "lat": 47.6785317,
+            "lng": -122.3265269
+        }
+    },
+    {
+        "title": "Coffeemind Queen Anne",
+        "description": "",
+        "map": {
+            "lat": 47.636223,
+            "lng": -122.3706335
+        }
+    },
+    {
+        "title": "Caffe Fiore",
+        "description": "",
+        "map": {
+            "lat": 47.690473,
+            "lng": -122.398054
+        }
+    },
+    {
+        "title": "George and Dragon Pub",
+        "description": "",
+        "map": {
+            "lat": 47.65301840000001,
+            "lng": -122.3561637
+        }
+    },
+    {
+        "title": "Cocina Oaxaca",
+        "description": "",
+        "map": {
+            "lat": 47.6858006,
+            "lng": -122.3375671
+        }
+    },
+    {
+        "title": "Central Pizza",
+        "description": "",
+        "map": {
+            "lat": 47.5990189,
+            "lng": -122.2948009
+        }
+    },
+    {
+        "title": "Slab Sandwich + Pie",
+        "description": "",
+        "map": {
+            "lat": 47.6123187,
+            "lng": -122.319631
+        }
+    },
+    {
+        "title": "Madison Park",
+        "description": "",
+        "map": {
+            "lat": 47.6346093,
+            "lng": -122.2796452
+        }
+    },
+    {
+        "title": "El Moose",
+        "description": "",
+        "map": {
+            "lat": 47.6666304,
+            "lng": -122.3816991
+        }
+    },
+    {
+        "title": "General Porpoise - Amazon Spheres",
+        "description": "",
+        "map": {
+            "lat": 47.615533,
+            "lng": -122.3395831
+        }
+    },
+    {
+        "title": "Evoke Coffee",
+        "description": "",
+        "map": {
+            "lat": 47.6207233,
+            "lng": -122.3399561
+        }
+    },
+    {
+        "title": "Ts McHugh's",
+        "description": "Bar for Clemson fans to congregate",
+        "map": {
+            "lat": 47.62442300000001,
+            "lng": -122.3559259
+        }
+    },
+    {
+        "title": "Salmon Bay cafe",
+        "description": "",
+        "map": {
+            "lat": 47.664186,
+            "lng": -122.38243
+        }
+    },
+    {
+        "title": "Tutta Bellas Pizza",
+        "description": "",
+        "map": {
+            "lat": 47.6605552,
+            "lng": -122.3425395
+        }
+    },
+    {
+        "title": "Local Bigger Burger",
+        "description": "",
+        "map": {
+            "lat": 47.6786507,
+            "lng": -122.3263008
+        }
+    },
+    {
+        "title": "Caffe Appassionato Coffee Roastery and Tasting Bar",
+        "description": "",
+        "map": {
+            "lat": 47.656143,
+            "lng": -122.383764
+        }
+    },
+    {
+        "title": "Sisters and Brothers",
+        "description": "lackluster hot chicken sandwich; I will try more hot chicken restaurants and find a better one",
+        "map": {
+            "lat": 47.6244262,
+            "lng": -122.3650737
+        }
+    },
+    {
+        "title": "Skalka",
+        "description": "Georgian breakfast bowls. A must-try if you are in town",
+        "map": {
+            "lat": 47.6049263,
+            "lng": -122.3377676
+        }
+    },
+    {
+        "title": "Herkimer coffee",
+        "description": "",
+        "map": {
+            "lat": 47.682439,
+            "lng": -122.355114
+        }
+    },
+    {
+        "title": "Seattle sunshine coffee",
+        "description": "",
+        "map": {
+            "lat": 47.6688404,
+            "lng": -122.2900674
+        }
+    },
+    {
+        "title": "Caffe Vita Queen Anne",
+        "description": "",
+        "map": {
+            "lat": 47.6267599,
+            "lng": -122.347714
+        }
+    },
+    {
+        "title": "Man vs Fries",
+        "description": "Huge, super unhealthy street food that tastes really good",
+        "map": {
+            "lat": 47.61944260000001,
+            "lng": -122.3472777
+        }
+    },
+    {
+        "title": "Elm coffee roasters",
+        "description": "",
+        "map": {
+            "lat": 47.600136,
+            "lng": -122.331072
+        }
+    },
+    {
+        "title": "Cherry street coffee",
+        "description": "",
+        "map": {
+            "lat": 47.6027554,
+            "lng": -122.3342129
+        }
+    },
+    {
+        "title": "Java jahn Ballard",
+        "description": "",
+        "map": {
+            "lat": 47.66383769999999,
+            "lng": -122.3748566
+        }
+    },
+    {
+        "title": "Tzars dumplings",
+        "description": "",
+        "map": {
+            "lat": 47.615739,
+            "lng": -122.316504
+        }
+    },
+    {
+        "title": "Dog in the park",
+        "description": "",
+        "map": {
+            "lat": 47.6109567,
+            "lng": -122.336715
+        }
+    },
+    {
+        "title": "Caf\u00e9 ladro Queen Anne",
+        "description": "",
+        "map": {
+            "lat": 47.638656,
+            "lng": -122.3571131
+        }
+    },
+    {
+        "title": "Local Coffee Spot",
+        "description": "Espresso and good breakfast food. Not the cheapest but it's good and pretty filling",
+        "map": {
+            "lat": 47.6232816,
+            "lng": -122.3340881
+        }
+    },
+    {
+        "title": "Monorail coffee fifth and pike",
+        "description": "Literal hole in the wall coffee shop to grab coffee on a walk through downtown",
+        "map": {
+            "lat": 47.6109158,
+            "lng": -122.3353796
+        }
+    },
+    {
+        "title": "Eastlake Coffee & Cafe",
+        "description": "Quaint, quiet coffee shop in Eastlake. Limited seating available but a tremendous coffee shop nonetheless.",
+        "map": {
+            "lat": 47.63960830000001,
+            "lng": -122.3261194
+        }
+    },
+    {
+        "title": "Fiasco",
+        "description": "",
+        "map": {
+            "lat": 47.6491712,
+            "lng": -122.3424174
+        }
+    },
+    {
+        "title": "Masonry Pizza Roy st",
+        "description": "",
+        "map": {
+            "lat": 47.6255774,
+            "lng": -122.35569
+        }
+    },
+    {
+        "title": "Hot Tub Boats",
+        "description": "Rent a boat that is literally just a hot tub. Scoot around the lake for 2 hours with friends. Drinking is not only allowed but seemingly encouraged.",
+        "map": {
+            "lat": 47.6503297,
+            "lng": -122.3305096
+        }
+    },
+    {
+        "title": "Portage Bay Cafe SLU",
+        "description": "",
+        "map": {
+            "lat": 47.621843,
+            "lng": -122.3374189
+        }
+    },
+    {
+        "title": "Queen Anne Beer Hall",
+        "description": "Huge beer hall, huge draft list, and lots of great apps and food",
+        "map": {
+            "lat": 47.6207934,
+            "lng": -122.3599539
+        }
+    },
+    {
+        "title": "Brew tap cap hill",
+        "description": "",
+        "map": {
+            "lat": 47.6142858,
+            "lng": -122.322711
+        }
+    },
+    {
+        "title": "Life on Mars",
+        "description": "",
+        "map": {
+            "lat": 47.6143076,
+            "lng": -122.3223545
+        }
+    },
+    {
+        "title": "Honey Hole Sandwiches",
+        "description": "rlly rlly good sandwiches",
+        "map": {
+            "lat": 47.6139153,
+            "lng": -122.3231412
+        }
+    },
+    {
+        "title": "Garlic crush",
+        "description": "",
+        "map": {
+            "lat": 47.6136057,
+            "lng": -122.3209543
+        }
+    },
+    {
+        "title": " Hattie's Hat Restaurant ",
+        "description": "Large american style breakfast.",
+        "map": {
+            "lat": 47.666085,
+            "lng": -122.383182
+        }
+    },
+    {
+        "title": "Ballard coffee works",
+        "description": "",
+        "map": {
+            "lat": 47.6689018,
+            "lng": -122.3845688
+        }
+    },
+    {
+        "title": "Rain City Burgers",
+        "description": "",
+        "map": {
+            "lat": 47.675951,
+            "lng": -122.3176081
+        }
+    },
+    {
+        "title": "Thomas Street Warehouse",
+        "description": "",
+        "map": {
+            "lat": 47.6207336,
+            "lng": -122.3393041
+        }
+    },
+    {
+        "title": "Aladdin's Gyrocery",
+        "description": "Great shawarma -> 'World's best shawarma' if you're a little drunk",
+        "map": {
+            "lat": 47.6579819,
+            "lng": -122.3133619
+        }
+    },
+    {
+        "title": "Cafe on the ave",
+        "description": "",
+        "map": {
+            "lat": 47.6584089,
+            "lng": -122.3133492
+        }
+    },
+    {
+        "title": "Woodland coffee Ballard",
+        "description": "",
+        "map": {
+            "lat": 47.6677341,
+            "lng": -122.3750668
+        }
+    },
+    {
+        "title": "Jibe Espresso Bar",
+        "description": "Lively cafe, good place to chat with friends or grab a coffee on your way to watch sunset at Golden Gardens",
+        "map": {
+            "lat": 47.6806145,
+            "lng": -122.4046947
+        }
+    },
+    {
+        "title": "Cafe Fiore",
+        "description": "Cozy corner location right on sunset hill. Quiet place to study or chat with friends.",
+        "map": {
+            "lat": 47.690473,
+            "lng": -122.398054
+        }
+    },
+    {
+        "title": "The Yard",
+        "description": "",
+        "map": {
+            "lat": 47.6895738,
+            "lng": -122.3556577
+        }
+    },
+    {
+        "title": "Diva Espresso",
+        "description": "",
+        "map": {
+            "lat": 47.686822,
+            "lng": -122.355106
+        }
+    },
+    {
+        "title": "Lighthouse Roasters",
+        "description": "",
+        "map": {
+            "lat": 47.6590938,
+            "lng": -122.3542123
+        }
+    },
+    {
+        "title": "Triangle spirits",
+        "description": "",
+        "map": {
+            "lat": 47.65085180000001,
+            "lng": -122.350878
+        }
+    },
+    {
+        "title": "Morsel u district",
+        "description": "",
+        "map": {
+            "lat": 47.6654379,
+            "lng": -122.312811
+        }
+    },
+    {
+        "title": "Storyville Coffee",
+        "description": "",
+        "map": {
+            "lat": 47.60895,
+            "lng": -122.3404309
+        }
+    },
+    {
+        "title": "Northlake tavern and pizza house",
+        "description": "",
+        "map": {
+            "lat": 47.6547347,
+            "lng": -122.3213918
+        }
+    },
+    {
+        "title": "Pecado Bueno Fremont",
+        "description": "Large portions for city cheap! Great mexican style bowl",
+        "map": {
+            "lat": 47.659252,
+            "lng": -122.3503751
+        }
+    },
+    {
+        "title": "Salt and Sugar Bakery",
+        "description": "Tremendous breakfast fare and espresso to boot",
+        "map": {
+            "lat": 47.6699336,
+            "lng": -122.3878872
+        }
+    },
+    {
+        "title": "Palmero Pizza and Pasta",
+        "description": "",
+        "map": {
+            "lat": 47.6219328,
+            "lng": -122.3123296
+        }
+    },
+    {
+        "title": "Sip house",
+        "description": "",
+        "map": {
+            "lat": 47.66510659999999,
+            "lng": -122.3144915
+        }
+    },
+    {
+        "title": "Al Basha",
+        "description": "unfortunately I had an allergic reaction to something here (have yet to find out what); perhaps skip this if you have severe nut allergies. I am open to revising this if I ever find out what I can do to avoid reactions eating Al Basha in the future.",
+        "map": {
+            "lat": 47.6136392,
+            "lng": -122.3466025
+        }
+    },
+    {
+        "title": "Big Marios Pizza",
+        "description": "",
+        "map": {
+            "lat": 47.6268201,
+            "lng": -122.3477059
+        }
+    },
+    {
+        "title": "The Old Peculiar",
+        "description": "",
+        "map": {
+            "lat": 47.668906,
+            "lng": -122.3799354
+        }
+    },
+    {
+        "title": "Five Point Cafe",
+        "description": "",
+        "map": {
+            "lat": 47.6180712,
+            "lng": -122.3473786
+        }
+    },
+    {
+        "title": "Cafe Umbria",
+        "description": "A well lit coffee shop with large windows that open in the summer.",
+        "map": {
+            "lat": 47.6298594,
+            "lng": -122.3411521
+        }
+    },
+    {
+        "title": "Lucky's Pho",
+        "description": "",
+        "map": {
+            "lat": 47.6500795,
+            "lng": -122.3495878
+        }
+    },
+    {
+        "title": "Nuna Ramen",
+        "description": "Large portions of great (and relatively cheap) ramen",
+        "map": {
+            "lat": 47.6515298,
+            "lng": -122.3523057
+        }
+    },
+    {
+        "title": "Mr. West Coffee",
+        "description": "",
+        "map": {
+            "lat": 47.6141627,
+            "lng": -122.3345817
+        }
+    },
+    {
+        "title": "Delfino's Chicago Style Pizza",
+        "description": "",
+        "map": {
+            "lat": 47.6625962,
+            "lng": -122.2987573
+        }
+    },
+    {
+        "title": "CJ's Eatery",
+        "description": "",
+        "map": {
+            "lat": 47.6155748,
+            "lng": -122.350655
+        }
+    },
+    {
+        "title": "Broadfork Cafe",
+        "description": "",
+        "map": {
+            "lat": 47.6648244,
+            "lng": -122.3153844
+        }
+    },
+    {
+        "title": "Amazon Go - Borean",
+        "description": "cashier-less amazon convenience store; can get pretty decent sandwiches for under $10",
+        "map": {
+            "lat": 47.6212224,
+            "lng": -122.3353374
+        }
+    },
+    {
+        "title": "Cafe Cosmos",
+        "description": "Open until 2200: this is the latest true coffee shop that I have found. Great lattes and they don't hold it against you for sitting on your laptop all the way until close",
+        "map": {
+            "lat": 47.61721989999999,
+            "lng": -122.3536253
+        }
+    },
+    {
+        "title": "Hap's Burgers and Taps",
+        "description": "",
+        "map": {
+            "lat": 47.5886282,
+            "lng": -122.2380271
+        }
+    },
+    {
+        "title": "Great Notion",
+        "description": "Local brews on tap",
+        "map": {
+            "lat": 47.6659134,
+            "lng": -122.3741085
+        }
+    },
+    {
+        "title": "Fuel Coffee",
+        "description": "",
+        "map": {
+            "lat": 47.6247222,
+            "lng": -122.3069444
+        }
+    },
+    {
+        "title": "El Chupacabra Greenwood",
+        "description": "Decent mexican fare",
+        "map": {
+            "lat": 47.6781519,
+            "lng": -122.3556886
+        }
+    },
+    {
+        "title": "Paseo Fremont",
+        "description": "HUGE pork sandwich; tough to go wrong with anything on the menu",
+        "map": {
+            "lat": 47.658486,
+            "lng": -122.350311
+        }
+    }
+]
