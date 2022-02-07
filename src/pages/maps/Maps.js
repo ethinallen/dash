@@ -40,7 +40,7 @@ export default function Maps() {
   return (
     <div className={classes.mapContainer}>
       <BasicMap
-        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyB7OXmzfQYua_1LEhRdqsoYzyJOPh9hGLg"
+        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDM89Z40cGg2DigLdpsDcCUFF609Ux0avs"
         loadingElement={<div style={{ height: "inherit", width: "inherit" }} />}
         containerElement={<div style={{ height: "100%" }} />}
         mapElement={<div style={{ height: "100%" }} />}
