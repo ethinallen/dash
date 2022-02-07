@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import Typing from 'react-typing-animation';
+import { Search as SearchIcon } from "@material-ui/icons";
 import { Grid } from 'semantic-ui-react';
 import Geets from './Geets';
 import Particles from "react-tsparticles";
