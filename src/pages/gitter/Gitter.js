@@ -62,7 +62,7 @@ function Gitter() {
           </div>
         </form>
 
-        <div id="grid-container">
+        <div id="grid-container" className={classes.gridContainer}>
           <div id="column-container">
             <Grid centered={true} columns={1}>
               <Geets geets={geets} />
