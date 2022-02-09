@@ -1,8 +1,9 @@
 import React, { useState, useRef } from 'react';
-import Typing from 'react-typing-animation';
 import { Search as SearchIcon } from "@material-ui/icons";
 import { Grid } from 'semantic-ui-react';
 import Geets from './Geets';
+
+import Tickles from "./Tickles";
 import Particles from "react-tsparticles";
 
 // import styles
@@ -10,8 +11,6 @@ import useStyles from "./styles";
 
 
 function Gitter() {
-
-  var classes = useStyles();
 
 
   const particlesInit = (main) => {
@@ -23,6 +22,8 @@ function Gitter() {
   const particlesLoaded = (container) => {
     console.log(container);
   };
+
+  var classes = useStyles();
 
   const [geets, updateGeets] = useState([]);
   const authorRef = useRef();
@@ -44,32 +45,17 @@ function Gitter() {
     return (
       <div className={classes.particlesContainer}>
 
-        <div id='title-container'>
-          <u>gitter.</u>
-
-          <div className="description">
-            <Typing speed={10}>
-              <span>Twitter...<Typing.Delay ms={1000} /> but for Github commit messages</span>
-            </Typing>
-          </div>
-
-        </div>
-
+        <div className={classes.gridContainer}>
 
         <form className="ui large form" onSubmit={handleSubmit}>
           <div className="field">
             <input ref={authorRef} type="text" placeholder="enter Github username (like ethinallen)" />
           </div>
         </form>
+        <Geets geets={geets} />
 
-        <div id="grid-container" className={classes.gridContainer}>
-          <div id="column-container">
-            <Grid centered={true} columns={1}>
-              <Geets geets={geets} />
-            </Grid>
-          </div>
         </div>
-    </div>
+      </div>
     );
 }
 
