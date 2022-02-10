@@ -8,6 +8,7 @@ import {
   BorderAll as TableIcon,
   ArrowBack as ArrowBackIcon,
 } from "@material-ui/icons";
+import * as Icons from "@material-ui/icons";
 import { useTheme } from "@material-ui/styles";
 import { withRouter } from "react-router-dom";
 import classNames from "classnames";
@@ -19,6 +20,7 @@ import useStyles from "./styles";
 import SidebarLink from "./components/SidebarLink/SidebarLink";
 import Dot from "./components/Dot";
 
+
 // context
 import {
   useLayoutState,
@@ -29,18 +31,25 @@ import {
 const structure = [
   { id: 0, label: "Dashboard", link: "/app/dashboard", icon: <HomeIcon /> },
   { id: 1, type: "divider" },
-  { id: 2, type: "title", label: "PROJECTS" },
   {
-    id: 3,
+    id: 2,
+    label: "Resume",
+    link: "https://cdn.andrewemery.io/resume.pdf",
+    icon: <Icons.Accessibility />,
+  },
+  { id: 3, type: "divider" },
+  { id: 4, type: "title", label: "PROJECTS" },
+  {
+    id: 5,
     label: "Seattle Map",
     link: "/app/ui/maps",
-    icon: <Dot size="small" color="warning" />,
+    icon: <Dot size="large" color="warning" />,
   },
   {
-    id: 4,
+    id: 6,
     label: "Gitter",
     link: "/app/ui/gitter",
-    icon: <Dot size="small" color="warning" />,
+    icon: <Dot size="large" color="warning" />,
   },
 ];
 
