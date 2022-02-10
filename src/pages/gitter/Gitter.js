@@ -1,21 +1,17 @@
 import React, { useState, useRef } from 'react';
-import { Search as SearchIcon } from "@material-ui/icons";
-import { Grid } from 'semantic-ui-react';
+// import { Search as SearchIcon } from "@material-ui/icons";
+// import { styled, alpha } from '@material-ui/styles';
 import Geets from './Geets';
 
 import Tickles from "./Tickles";
-import Particles from "react-tsparticles";
 
 // import styles
 import useStyles from "./styles";
 
-
 function Gitter() {
-
 
   const particlesInit = (main) => {
     console.log(main);
-
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   };
 
@@ -43,19 +39,19 @@ function Gitter() {
   }
 
     return (
-      <div className={classes.particlesContainer}>
+      <>
+        <Tickles />
 
         <div className={classes.gridContainer}>
 
-        <form className="ui large form" onSubmit={handleSubmit}>
-          <div className="field">
+          <form className={classes.fieldContainer} onSubmit={handleSubmit}>
             <input ref={authorRef} type="text" placeholder="enter Github username (like ethinallen)" />
-          </div>
-        </form>
-        <Geets geets={geets} />
+          </form>
+
+          <Geets geets={geets} />
 
         </div>
-      </div>
+      </>
     );
 }
 

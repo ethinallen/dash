@@ -1,5 +1,6 @@
 import React from "react";
 import Particles from "react-tsparticles";
+import useStyles from "./styles";
 
 
 function Tickles() {
@@ -14,26 +15,32 @@ function Tickles() {
     console.log(container);
   };
 
+  var classes = useStyles();
+
+  return (
+    <div className={classes.particlesContainer}>
   <Particles
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
+        fullScreen: {
+          enable: true,
+          zIndex: -1 // or any value is good for you, if you use -1 set `interactivity.detectsOn` to `"window"` if you need mouse interactions
+        },
         background: {
           color: {
-            value: "#0d47a1",
+            value: "#000",
           },
         },
         fpsLimit: 120,
         interactivity: {
           events: {
             onClick: {
-              enable: true,
-              mode: "push",
+              enable: false,
             },
             onHover: {
-              enable: true,
-              mode: "repulse",
+              enable: false,
             },
             resize: true,
           },
@@ -55,11 +62,11 @@ function Tickles() {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "#FFF",
           },
           links: {
-            color: "#ffffff",
-            distance: 150,
+            color: "#FFF",
+            distance: 100,
             enable: true,
             opacity: 0.5,
             width: 1,
@@ -72,7 +79,7 @@ function Tickles() {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 6,
+            speed: 2,
             straight: false,
           },
           number: {
@@ -83,19 +90,21 @@ function Tickles() {
             value: 80,
           },
           opacity: {
+            random: true,
             value: 0.5,
           },
           shape: {
-            type: "circle",
+            type: "square",
           },
           size: {
             random: true,
-            value: 5,
+            value: 8,
           },
         },
         detectRetina: true,
       }}
     />
+    </div>)
 }
 
 export default Tickles;

@@ -9,7 +9,6 @@ import {
   Typography
 } from '@material-ui/core';
 
-import { useTheme } from "@material-ui/styles";
 import useStyles from "./styles";
 
 
