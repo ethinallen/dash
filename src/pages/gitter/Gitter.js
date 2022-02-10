@@ -45,7 +45,7 @@ function Gitter() {
         <div className={classes.gridContainer}>
 
           <form className={classes.fieldContainer} onSubmit={handleSubmit}>
-            <input ref={authorRef} type="text" placeholder="enter Github username (like ethinallen)" />
+            <input ref={authorRef} type="text" placeholder="enter a Github username" />
           </form>
 
           <Geets geets={geets} />
