@@ -1,10 +1,10 @@
 import tinycolor from "tinycolor2";
 
-const primary = "#536DFE";
-const secondary = "#FF5C93";
+const primary = "#001219";
+const secondary = "#001219";
 const warning = "#FFC260";
 const success = "#3CD4A0";
-const info = "#9013FE";
+const info = "#ae2012";
 
 const lightenRate = 7.5;
 const darkenRate = 15;
@@ -64,7 +64,7 @@ const defaultTheme = {
       hint: "#B9B9B9",
     },
     background: {
-      default: "#F6F7FF",
+      default: "#005f73",
       light: "#F3F5FF",
     },
   },
