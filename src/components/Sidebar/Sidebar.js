@@ -35,7 +35,8 @@ const structure = [
     id: 2,
     label: "Resume",
     link: "https://cdn.andrewemery.io/resume.pdf",
-    icon: <Icons.Accessibility />,
+    icon: <Icons.Assignment style={{color: useTheme.secondary}}/>
+,
   },
   { id: 3, type: "divider" },
   { id: 4, type: "title", label: "PROJECTS" },

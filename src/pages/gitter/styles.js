@@ -10,7 +10,7 @@ export default makeStyles(theme => ({
 
   },
   cardContainer: {
-    width: "20vw",
+    width: "30vw",
     minWidth: "250px",
     padding: "10px",
   },

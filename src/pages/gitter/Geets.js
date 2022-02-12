@@ -19,7 +19,7 @@ function Geets({ geets }) {
     <Grid direction="column" spacing={10}>
     {geets.map((geet) => (
       <div className={classes.cardContainer}>
-        <Card xs>
+        <Card>
            <CardMedia
              component="img"
              image={geet.avatarurl}

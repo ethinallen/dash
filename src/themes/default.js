@@ -1,7 +1,7 @@
 import tinycolor from "tinycolor2";
 
-const primary = "#001219";
-const secondary = "#001219";
+const primary = "#2a9d8f";
+const secondary = "#0a9396";
 const warning = "#FFC260";
 const success = "#3CD4A0";
 const info = "#ae2012";
@@ -29,7 +29,7 @@ const defaultTheme = {
       dark: tinycolor(secondary)
         .darken(darkenRate)
         .toHexString(),
-      contrastText: "#FFFFFF",
+      contrastText: "#000",
     },
     warning: {
       main: warning,
@@ -64,8 +64,8 @@ const defaultTheme = {
       hint: "#B9B9B9",
     },
     background: {
-      default: "#005f73",
-      light: "#F3F5FF",
+      default: "#264653",
+      light: "rgba(0,0,0,.2)",
     },
   },
   customShadows: {
