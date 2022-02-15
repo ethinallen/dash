@@ -10,14 +10,6 @@ import useStyles from "./styles";
 
 function Gitter() {
 
-  const particlesInit = (main) => {
-    console.log(main);
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
-
   var classes = useStyles();
 
   const [geets, updateGeets] = useState([]);
