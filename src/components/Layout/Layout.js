@@ -28,7 +28,6 @@ import Typography from "../../pages/typography";
 import Notifications from "../../pages/notifications";
 import Maps from "../../pages/maps";
 import Gitter from "../../pages/gitter";
-import Tables from "../../pages/tables";
 import Icons from "../../pages/icons";
 import Charts from "../../pages/charts";
 
@@ -53,17 +52,16 @@ function Layout(props) {
           >
             <div className={classes.fakeToolbar} />
             <Switch>
-              <Route path="/app/dashboard" component={Dashboard} />
+              <Route exact path="/" component={Dashboard} />
               <Route path="/app/typography" component={Typography} />
-              <Route path="/app/tables" component={Tables} />
               <Route path="/app/notifications" component={Notifications} />
               <Route
                 exact
                 path="/app/ui"
                 render={() => <Redirect to="/app/ui/icons" />}
               />
-              <Route path="/app/ui/maps" component={Maps} />
-              <Route path="/app/ui/gitter" component={Gitter} />
+              <Route path="/maps" component={Maps} />
+              <Route path="/gitter" component={Gitter} />
               <Route path="/app/ui/icons" component={Icons} />
               <Route path="/app/ui/charts" component={Charts} />
             </Switch>

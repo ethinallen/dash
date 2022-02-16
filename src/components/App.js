@@ -18,14 +18,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" render={() => <Redirect to="/app/dashboard" />} />
-        <Route
-          exact
-          path="/app"
-          render={() => <Redirect to="/app/dashboard" />}
-        />
-        <PrivateRoute path="/app" component={Layout} />
-        <PublicRoute path="/login" component={Login} />
+        <Route exact path="/" render={Layout} />
+        <Route path="/" component={Layout} />
+        <Route path="/login" component={Login} />
         <Route component={Error} />
       </Switch>
     </BrowserRouter>

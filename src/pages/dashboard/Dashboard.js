@@ -12,32 +12,32 @@ import { useTheme } from "@material-ui/styles";
 import useStyles from "./styles";
 
 // components
-import mock from "./mock";
+import data from "./data";
 import Widget from "../../components/Widget";
+import Window from "../../components/Window";
 import PageTitle from "../../components/PageTitle";
-import { Typography } from "../../components/Wrappers";
 import Dot from "../../components/Sidebar/components/Dot";
-import Table from "./components/Table/Table";
 import BigStat from "./components/BigStat/BigStat";
 
 export default function Dashboard(props) {
   var classes = useStyles();
   var theme = useTheme();
-
+  console.log(data);
   return (
     <>
       <PageTitle title="Home" />
-      <Grid container spacing={3}>
-        <Grid item xs={6}>
-        <Widget
-          title="Nice to meet you!"
-          upperTitle
-          noBodyPadding
-          bodyClass={classes.testing}
-        >
-          <div>testing</div>
-        </Widget>        </Grid>
-      </Grid>
+        <Grid container spacing={1}>
+          <Grid item xs={6} align="center" justify="center" alignItems="center"  >
+            <img className="photo" style={{"height" : "60vh", "display" : "flex", "align-itmes" : "right", "border-radius" : "4px"}} src="https://cdn.andrewemery.io/IMG_5273.jpg"></img>
+          </Grid>
+          {data.windows.map((windowData, index) =>
+            <Grid item xs={windowData.size}>
+              <Window
+              windowData={windowData}
+              />
+            </Grid>
+          )}
+        </Grid>
     </>
   );
 }
