@@ -39,6 +39,13 @@ export default function Dashboard(props) {
             }} >
               <img className="photo" style={{"height" : "60vh", "display" : "flex", "align-itmes" : "right", "border-radius" : "4px"}} src="https://cdn.andrewemery.io/IMG_5273.jpg"></img>
           </Window>
+          {data.windows.map((windowData, index) =>
+            <Grid spacing={1} item xs={windowData.size}>
+              <Window
+              windowData={windowData}
+              />
+            </Grid>
+          )}
         </Grid>
     </>
   );
